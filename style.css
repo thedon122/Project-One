@@ -1,0 +1,10 @@
+html{
+    background-image: url('/Users/donovan/GA/Project-One/connect_4.jpg');
+    height: 100%;
+}
+#startPage{
+    text-align: center;
+}
+#gameBroadPage{
+    /* display: none */
+}
