@@ -6,5 +6,19 @@ html{
     text-align: center;
 }
 #gameBroadPage{
-    /* display: none */
+    background-color: yellow;
+}
+#gameBroad{
+    text-align: center;
+}
+.cicrle{
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+}
+#a1{
+    background: sienna;
 }
