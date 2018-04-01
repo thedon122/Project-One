@@ -11,8 +11,8 @@ The game will start when a player clicks on new game the option to change their 
 <li>https://stackoverflow.com</li> 
 <li>https://www.google.com/</li> <li>https://trello.com/b/0FOGPAn0/connect-4-project</li></ul>
 <h1>Frame Work</h1>
-<img src="framework1">
-<img src="framework2">
+<img src="framework1.jpg">
+<img src="framework2.jpg">
 <h1>Features:</h1>
 <ul><li>New Game Button</li>
 <li>Rest Button</li>
