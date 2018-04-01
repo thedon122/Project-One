@@ -54,9 +54,9 @@ $(document).ready(function(){
         let clickHold = findEmpty(clo)
         $(clickHold).css("background-color", "white")
     })
+    // 
     $('.cicrle').on('click', function() {
         console.log(turn)
-        let circleToChange = event.target.id
         console.log(event.target.dataset.clo)
         console.log(event.target.dataset.row)
         // change color after each turn    
@@ -64,8 +64,11 @@ $(document).ready(function(){
             const clo = event.target.dataset.clo
             console.log(this)
             console.log(findEmpty(clo))
+            // make sure pieces silde to the bottom
             let clickHold = findEmpty(clo)
-            $(clickHold).css("background-color", "black") 
+            // changes piece to black
+            $(clickHold).css("background-color", "black")
+            // make sure pieces are clicked only once
             $(clickHold).attr("data-click", "clicked")
             // blackClick(circleToChange)
             turn++
@@ -74,14 +77,12 @@ $(document).ready(function(){
         {   const clo = event.target.dataset.clo
             console.log(this)
             console.log(findEmpty(clo))
+            // make sure pieces silde to the bottom
             let clickHold = findEmpty(clo)
+            // changes piece to red
             $(clickHold).css("background-color", "red")
-            // redClick(circleToChange)
+            // make sure pieces are clicked only once
             $(clickHold).attr("data-click", "clicked")
             turn++}
-        // }
-        const clo = event.target.dataset.clo
-        findEmpty(clo)
-        $(event.target.this).addClass("clicked")        
     })
 })
